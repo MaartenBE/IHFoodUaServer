@@ -34,7 +34,7 @@
               <uax:ValueRank>1</uax:ValueRank>
               <uax:ArrayDimensions />
               <uax:MaxStringLength>0</uax:MaxStringLength>
-              <uax:IsOptional>true</uax:IsOptional>
+              <uax:IsOptional>false</uax:IsOptional>
             </uax:StructureField>
           </uax:Fields>
         </uax:StructureDefinition>
@@ -72,7 +72,7 @@
               <uax:ValueRank>1</uax:ValueRank>
               <uax:ArrayDimensions />
               <uax:MaxStringLength>0</uax:MaxStringLength>
-              <uax:IsOptional>true</uax:IsOptional>
+              <uax:IsOptional>false</uax:IsOptional>
             </uax:StructureField>
             <uax:StructureField>
               <uax:Name>LotName</uax:Name>
@@ -82,7 +82,7 @@
               <uax:ValueRank>-1</uax:ValueRank>
               <uax:ArrayDimensions />
               <uax:MaxStringLength>0</uax:MaxStringLength>
-              <uax:IsOptional>true</uax:IsOptional>
+              <uax:IsOptional>false</uax:IsOptional>
             </uax:StructureField>
           </uax:Fields>
         </uax:StructureDefinition>
@@ -96,7 +96,7 @@
     </uax:NodeId>
     <uax:BrowseName>
       <uax:NamespaceIndex>1</uax:NamespaceIndex>
-      <uax:Name>MeynConnectNext</uax:Name>
+      <uax:Name>MeynConnect\nNext</uax:Name>
     </uax:BrowseName>
     <uax:SuperTypeId>
       <uax:Identifier>i=22</uax:Identifier>
@@ -120,7 +120,7 @@
               <uax:ValueRank>-1</uax:ValueRank>
               <uax:ArrayDimensions />
               <uax:MaxStringLength>0</uax:MaxStringLength>
-              <uax:IsOptional>true</uax:IsOptional>
+              <uax:IsOptional>false</uax:IsOptional>
             </uax:StructureField>
             <uax:StructureField>
               <uax:Name>Next</uax:Name>
@@ -130,7 +130,7 @@
               <uax:ValueRank>-1</uax:ValueRank>
               <uax:ArrayDimensions />
               <uax:MaxStringLength>0</uax:MaxStringLength>
-              <uax:IsOptional>true</uax:IsOptional>
+              <uax:IsOptional>false</uax:IsOptional>
             </uax:StructureField>
           </uax:Fields>
         </uax:StructureDefinition>
@@ -144,7 +144,7 @@
     </uax:NodeId>
     <uax:BrowseName>
       <uax:NamespaceIndex>1</uax:NamespaceIndex>
-      <uax:Name>MeynConnect\LotChangeType</uax:Name>
+      <uax:Name>MeynConnect\nLotChangeType</uax:Name>
     </uax:BrowseName>
     <uax:SuperTypeId>
       <uax:Identifier>i=63</uax:Identifier>
@@ -351,7 +351,7 @@
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>1</uax:NamespaceIndex>
-        <uax:Name>MeynConnectName</uax:Name>
+        <uax:Name>MeynConnect\nName</uax:Name>
       </uax:BrowseName>
       <uax:ReferenceTypeId>
         <uax:Identifier>i=47</uax:Identifier>
